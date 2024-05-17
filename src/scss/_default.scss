@@ -91,3 +91,23 @@ p {
     padding: 0 14px;
   }
 }
+
+.modal-overlay {
+
+  position: fixed;
+  overflow-y: auto;
+  padding: 20px 10px;
+  z-index: 999;
+  inset: 0;
+  background-color: rgba($color: black, $alpha: 0.7);
+  display: none;
+  
+
+  &_close-button {
+    position: fixed;
+    color: $white;
+    top: 12px;
+    right: 12px;
+    font-size: 36px;
+  }
+}
